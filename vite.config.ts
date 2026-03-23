@@ -6,4 +6,7 @@ export default defineConfig({
   plugins: [
     react()],
    base: '/MG_EXAM_NIERE',
+   css: {
+  devSourcemap: false, 
+},
 })
